@@ -2,9 +2,9 @@ import React from "react";
 
 const NewsItem = ({ item }) => {
   return (
-    <div key={item.id}>
+    <div className="news_item">
       <h3>{item.title}</h3>
-      <div>{item.feed}</div>
+      <p>{item.feed}</p>
     </div>
   );
 };
